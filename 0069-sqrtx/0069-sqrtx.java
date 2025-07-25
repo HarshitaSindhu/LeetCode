@@ -1,4 +1,4 @@
-class Solution {
+  class Solution {
     public int mySqrt(int x) {
         long start = 1;
         long end= x;
@@ -17,3 +17,4 @@ class Solution {
         return (int)answer;
     }
 }
+    
