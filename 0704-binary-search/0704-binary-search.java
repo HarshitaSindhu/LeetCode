@@ -1,22 +1,22 @@
 class Solution {
-    public int search(int[] arr, int k) {
-        // Code Here
-        int n= arr.length;
+    public int search(int[] nums, int target) {
         int start = 0;
-        int end = n-1;
-        while(start<= end){
-            int mid = (start + end)/2;
-            
-            if(arr[mid]== k){
-                return mid;
+        int end = nums.length-1;
+        int answer = -1;
+        while(start<=end){
+            int mid=(start+end)/2;
+
+            if(nums[mid]== target){
+                  return   mid;
             }
-            else if(arr[mid]<k){
-                start = mid+1;
+            else if( nums[mid]<target){
+                start = mid +1;
             }
             else{
-                end= mid -1 ;
+                end = mid-1;
             }
         }
         return -1;
+
     }
 }
