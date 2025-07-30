@@ -1,18 +1,30 @@
+// Iterative Preorder Traversal of Binary Tree
+
+
+
+
 class Solution {
-    static ArrayList<Integer> answer;
-
-    static void recur(TreeNode root) {
-        if (root == null) {
-            return;
-        }
-        answer.add(root.val);
-        recur(root.left);
-        recur(root.right);
-    }
-
     public List<Integer> preorderTraversal(TreeNode root) {
-        answer = new ArrayList<>();
-        recur(root);
-        return answer;
+   List<Integer> result = new ArrayList<>();
+   if(root == null){
+    return result;
+   }
+
+   Stack<TreeNode> stack =  new Stack<>();
+   stack.push(root);
+
+   while(!stack.isEmpty()){
+     TreeNode current = stack.pop();
+     result.add(current.val);
+
+     if(current.right != null){
+        stack.push(current.right);
+     }
+
+     if(current.left != null){
+        stack.push(current.left);
+     }
+   }
+     return result;
     }
 }
