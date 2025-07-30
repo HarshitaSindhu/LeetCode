@@ -17,20 +17,20 @@ class Solution {
     int count = 0 ;
     int answer = -1;
    
-    public void inorder(TreeNode node , int k ){
+    public void recur(TreeNode node , int k ){
         if(node== null ){
             return;
         }
-        inorder(node.left, k);
+        recur(node.left, k);
         count ++;
         if(count == k){
             answer = node.val;
             return ;
         }
-        inorder(node.right, k );
+        recur(node.right, k );
     }
      public int kthSmallest(TreeNode root, int k) {
-     inorder(root , k);
+     recur(root , k);
      return answer;   
     }
 }
