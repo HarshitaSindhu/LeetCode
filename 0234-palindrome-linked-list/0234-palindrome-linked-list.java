@@ -1,47 +1,53 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public static ListNode reverse(ListNode head){
 
-
-
- class Solution {
-    public static ListNode reverse(ListNode head) {
-        ListNode prev = null;
         ListNode temp = head;
+        ListNode prev = null;
 
-        while (temp != null) {
-            ListNode nxtNode = temp.next;
+        while(temp!= null){
+            ListNode nxt = temp.next;
             temp.next = prev;
-            prev = temp;
-            temp = nxtNode;
+            prev = temp ;
+            temp = nxt;
         }
-
         return prev;
     }
-
     public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) {
-            return true;
-        }
-
+        ListNode temp = head;
         ListNode slow = head;
         ListNode fast = head;
+           if (head == null || head.next == null) return true;
 
-        while (slow != null && fast != null && fast.next != null) {
+
+        while(fast!= null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
+
         }
+        ListNode mid = slow;
+        
+       
 
-        ListNode secondHalfStart = reverse(slow);
-
+        ListNode secondHalfHead = reverse(mid);
         ListNode i = head;
-        ListNode j = secondHalfStart;
-
-        while (j != null) {
-            if (i.val != j.val) {
-                return false;
+        ListNode j = secondHalfHead;
+        while(j != null ){
+            if(i.val != j.val){
+                return false; 
             }
             i = i.next;
-            j = j.next;
+            j= j.next;
         }
-
         return true;
     }
 }
