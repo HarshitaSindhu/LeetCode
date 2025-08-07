@@ -14,46 +14,34 @@ class Solution {
     }
 
     public String reverseWords(String s) {
-        int n = s.length();
-        String words[] = new String[n];
-        int index = 0;
+        int l = s.length();
         String currentWord = "";
-        int count = 1;  
-        for (int i = 0; i < n; i++) {
-            if (s.charAt(i) == ' ') {
-                count++;
-            }
-        }
+        ArrayList<String> wordList = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
-            char c = s.charAt(i);
-            if (c != ' ') { 
-                currentWord += c;
+        for (int i = 0; i < l; i++) {
+            char ch = s.charAt(i);
+
+            if (ch != ' ') {
+                currentWord += ch;
             } else {
-                if (!currentWord.equals("")) {  
-                    words[index] = currentWord;
-                    index++;
+                if (!currentWord.equals("")) {
+                    wordList.add(currentWord);
                     currentWord = "";
                 }
             }
         }
 
         if (!currentWord.equals("")) {
-            words[index] = currentWord;
-            index++;
+            wordList.add(currentWord);
         }
 
-        String[] actualWords = new String[index];
-        for (int i = 0; i < index; i++) {
-            actualWords[i] = words[i];
-        }
-
-        reverse(actualWords);
+        String[] words = wordList.toArray(new String[0]);
+        reverse(words);
 
         String ans = "";
-        for (int i = 0; i < actualWords.length; i++) {
-            ans += actualWords[i];
-            if (i != actualWords.length - 1) {
+        for (int i = 0; i < words.length; i++) {
+            ans += words[i];
+            if (i != words.length - 1) {
                 ans += " ";
             }
         }
