@@ -3,19 +3,14 @@ class Solution {
         int low = 0, high = nums.length - 1;
 
         while (low < high) {
-            int mid = (low + high) / 2;
+            int mid = low + (high - low) / 2;
 
-            // Ensure mid is even (pair starts at even index)
-            if (mid % 2 == 1) {
-                mid--;
-            }
-
-            // If pair is proper, move to right half
-            if (nums[mid] == nums[mid + 1]) {
-                low = mid + 2;
-            } 
-            // Otherwise, the single element is on the left
-            else {
+            // If mid is even and next is same → single is to the right
+            // If mid is odd and prev is same → single is to the right
+            if ((mid % 2 == 0 && nums[mid] == nums[mid + 1]) ||
+                (mid % 2 == 1 && nums[mid] == nums[mid - 1])) {
+                low = mid + 1;
+            } else {
                 high = mid;
             }
         }
