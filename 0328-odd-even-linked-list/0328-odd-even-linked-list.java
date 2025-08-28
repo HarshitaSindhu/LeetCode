@@ -8,48 +8,52 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+ class Solution {
     public ListNode oddEvenList(ListNode head) {
         ListNode oH = null;
-        ListNode eH = null;
         ListNode oT = null;
+        
+        ListNode eH = null;
         ListNode eT = null;
+        
         ListNode temp = head;
-
+        
         if(head == null){
-            return head;
+          return head;
         }
-
+        
         int index = 1;
         while(temp != null){
-            if(index %2 == 0){
-                if(eH == null && eT == null){
-                    eH = temp;
-                    eT = temp;
-                }
-                else{
-                    eT.next = temp ;
-                    eT = temp;
-                }
+          if(index %2 ==0){
+            if(eH == null && eT == null){
+              eH = temp;
+              eT = temp;
             }
             else{
-                if(oH == null && oT == null){
-                    oH = temp;
-                    oT = temp;
-                }
-                else{
-                oT.next = temp;
-                oT = temp;
+              eT.next =  temp;
+              eT= temp;
             }
+            
+          }
+          else{
+            if(oH == null && oT == null){
+              oH = temp;
+              oT = temp;
+              
             }
-        index++;
-        temp = temp.next;
-    }
-
-      oT.next = eH;
-      if(eT != null){
-        eT.next  = null;
-      }
-      return oH;
+            else{
+              oT.next =  temp;
+              oT = temp;
+            }
+          }
+          index++;
+          temp=temp.next;
+        }
+        oT.next = eH;
+        if(eT != null){
+          eT.next =null;
+        }
+        
+        return oH;
     }
 }
