@@ -5,12 +5,3 @@ class Solution {
      return (s+s).contains(goal);
     }
 }
-
-
-
-
-
-
-
-
-
