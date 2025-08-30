@@ -1,8 +1,8 @@
 class Solution {
 
-    public static void reverse(String[] words, int size) {
+    public static void reverse(String words[]) {
         int i = 0;
-        int j = size - 1;
+        int j = words.length - 1;
 
         while (i < j) {
             String temp = words[i];
@@ -14,35 +14,47 @@ class Solution {
     }
 
     public String reverseWords(String s) {
-        int n = s.length();
-        String[] words = new String[n];
-        int index = 0;
-        String current = "";
+        String currentWord = "";
+        int l = s.length();
 
-        for (int i = 0; i < n; i++) {
-            char ch = s.charAt(i);
-            if (ch != ' ') {
-                current += ch;
-            } else {
-                if (!current.equals("")) {
-                    words[index] = current;
-                    index++;
-                    current = "";
+        // count words correctly (ignore multiple spaces)
+        int count = 0;
+        boolean inWord = false;
+        for (int i = 0; i < l; i++) {
+            if (s.charAt(i) != ' ') {
+                if (!inWord) {
+                    count++;
+                    inWord = true;
                 }
+            } else {
+                inWord = false;
             }
         }
 
-        if (!current.equals("")) {
-            words[index] = current;
-            index++;
+        String words[] = new String[count];
+
+        int index = 0;
+        for (int i = 0; i < l; i++) {
+            if (s.charAt(i) != ' ') {
+                currentWord += (s.charAt(i));
+            } else {
+                if (!currentWord.equals("")) {   // only add non-empty word
+                    words[index] = currentWord;
+                    currentWord = "";
+                    index++;
+                }
+            }
+        }
+        if (!currentWord.equals("")) {
+            words[index] = currentWord;
         }
 
-        reverse(words, index);
+        reverse(words);
 
         String ans = "";
-        for (int i = 0; i < index; i++) {
+        for (int i = 0; i < words.length; i++) {
             ans += words[i];
-            if (i != index - 1) {
+            if (i != words.length - 1) {
                 ans += " ";
             }
         }
@@ -50,4 +62,3 @@ class Solution {
         return ans;
     }
 }
-
