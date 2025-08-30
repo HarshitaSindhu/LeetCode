@@ -1,8 +1,8 @@
 class Solution {
 
-    public static void reverse(String words[]) {
+    public static void reverse(String[] words, int size) {
         int i = 0;
-        int j = words.length - 1;
+        int j = size - 1;
 
         while (i < j) {
             String temp = words[i];
@@ -14,34 +14,35 @@ class Solution {
     }
 
     public String reverseWords(String s) {
-        int l = s.length();
-        String currentWord = "";
-        ArrayList<String> wordList = new ArrayList<>();
+        int n = s.length();
+        String[] words = new String[n];
+        int index = 0;
+        String current = "";
 
-        for (int i = 0; i < l; i++) {
+        for (int i = 0; i < n; i++) {
             char ch = s.charAt(i);
-
             if (ch != ' ') {
-                currentWord += ch;
+                current += ch;
             } else {
-                if (!currentWord.equals("")) {
-                    wordList.add(currentWord);
-                    currentWord = "";
+                if (!current.equals("")) {
+                    words[index] = current;
+                    index++;
+                    current = "";
                 }
             }
         }
 
-        if (!currentWord.equals("")) {
-            wordList.add(currentWord);
+        if (!current.equals("")) {
+            words[index] = current;
+            index++;
         }
 
-        String[] words = wordList.toArray(new String[0]);
-        reverse(words);
+        reverse(words, index);
 
         String ans = "";
-        for (int i = 0; i < words.length; i++) {
+        for (int i = 0; i < index; i++) {
             ans += words[i];
-            if (i != words.length - 1) {
+            if (i != index - 1) {
                 ans += " ";
             }
         }
@@ -49,3 +50,4 @@ class Solution {
         return ans;
     }
 }
+
