@@ -1,64 +1,49 @@
 class Solution {
-
-    public static void reverse(String words[]) {
-        int i = 0;
-        int j = words.length - 1;
-
-        while (i < j) {
-            String temp = words[i];
-            words[i] = words[j];
-            words[j] = temp;
+    public static void reverse(String[]words,int size){
+        int  i=0;
+        int j =size-1;
+        while(i<j){
+            String temp =words[i];
+            words[i]=words[j];
+            words[j]=temp;
             i++;
             j--;
-        }
+                    }
+
     }
-
     public String reverseWords(String s) {
-        String currentWord = "";
-        int l = s.length();
+        int n =s.length();
+        String words[]= new String[n];
+        int index=0;
+        String currentword="";
+        for(int i=0;i<n;i++){
+            char ch = s.charAt(i);
+            if(ch!=' '){
+                currentword=currentword + ch;
 
-        // count words correctly (ignore multiple spaces)
-        int count = 0;
-        boolean inWord = false;
-        for (int i = 0; i < l; i++) {
-            if (s.charAt(i) != ' ') {
-                if (!inWord) {
-                    count++;
-                    inWord = true;
-                }
-            } else {
-                inWord = false;
+            }
+            else {
+                 if (!currentword.equals("")) {
+            words[index] = currentword;
+                currentword="";
+                index ++;
+                 }
+
             }
         }
-
-        String words[] = new String[count];
-
-        int index = 0;
-        for (int i = 0; i < l; i++) {
-            if (s.charAt(i) != ' ') {
-                currentWord += (s.charAt(i));
-            } else {
-                if (!currentWord.equals("")) {   // only add non-empty word
-                    words[index] = currentWord;
-                    currentWord = "";
-                    index++;
-                }
-            }
-        }
-        if (!currentWord.equals("")) {
-            words[index] = currentWord;
-        }
-
-        reverse(words);
+         if (!currentword.equals("")) {
+            words[index] = currentword;
+            index++;
+         }
+          reverse(words, index);
 
         String ans = "";
-        for (int i = 0; i < words.length; i++) {
+        for (int i = 0; i < index; i++) {
             ans += words[i];
-            if (i != words.length - 1) {
+            if (i != index - 1) {
                 ans += " ";
             }
         }
-
-        return ans;
+        return ans ;
     }
 }
