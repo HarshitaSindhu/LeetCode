@@ -4,28 +4,24 @@ public class Solution {
         if (root == null) return 0;
 
         int maxWidth = 0;
-
-        // Queue stores nodes at current level
         Queue<TreeNode> queue = new LinkedList<>();
-        // ArrayList stores indices corresponding to nodes in the queue
         ArrayList<Integer> indexList = new ArrayList<>();
 
         queue.offer(root);
-        indexList.add(0); // root index is 0
+        indexList.add(0); // Start with root at index 0
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            int firstIndex = indexList.get(0);
-            int lastIndex = indexList.get(size - 1);
-            maxWidth = Math.max(maxWidth, lastIndex - firstIndex + 1);
+            int start = indexList.get(0); // Index of first node at this level
+            int end = indexList.get(size - 1); // Index of last node at this level
+            maxWidth = Math.max(maxWidth, end - start + 1);
 
-            // Prepare for next level
             ArrayList<Integer> newIndexList = new ArrayList<>();
+
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
-                int index = indexList.remove(0);
+                int index = indexList.remove(0) - start; // Normalize index
 
-                // Assign indices for children and add them to queue and index list
                 if (node.left != null) {
                     queue.offer(node.left);
                     newIndexList.add(2 * index + 1);
@@ -35,10 +31,15 @@ public class Solution {
                     newIndexList.add(2 * index + 2);
                 }
             }
-            indexList = newIndexList;
+
+            indexList = newIndexList; // Move to next level
         }
 
         return maxWidth;
     }
 
 }
+
+
+
+
