@@ -1,4 +1,3 @@
-
 public class Solution {
     public int widthOfBinaryTree(TreeNode root) {
         if (root == null) return 0;
@@ -8,19 +7,19 @@ public class Solution {
         ArrayList<Integer> indexList = new ArrayList<>();
 
         queue.offer(root);
-        indexList.add(0); // Start with root at index 0
+        indexList.add(0);
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            int start = indexList.get(0); // Index of first node at this level
-            int end = indexList.get(size - 1); // Index of last node at this level
+            int start = indexList.get(0);
+            int end = indexList.get(size - 1);
             maxWidth = Math.max(maxWidth, end - start + 1);
 
             ArrayList<Integer> newIndexList = new ArrayList<>();
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
-                int index = indexList.remove(0) - start; // Normalize index
+                int index = indexList.remove(0) - start;
 
                 if (node.left != null) {
                     queue.offer(node.left);
@@ -32,14 +31,9 @@ public class Solution {
                 }
             }
 
-            indexList = newIndexList; // Move to next level
+            indexList = newIndexList;
         }
 
         return maxWidth;
     }
-
 }
-
-
-
-
