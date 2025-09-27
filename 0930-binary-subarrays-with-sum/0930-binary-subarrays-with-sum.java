@@ -10,9 +10,9 @@ class Solution {
         }
 
         while (r < n) {
-            sum += nums[r];
+            sum += (nums[r]%2);
             while (sum > goal) {
-                sum -= nums[l];
+                sum -= (nums[l]%2);
                 l++;
             }
             count = count + (r - l + 1);
