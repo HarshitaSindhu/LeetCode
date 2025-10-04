@@ -1,29 +1,27 @@
-import java.util.*;
-
 class Solution {
     public int romanToInt(String s) {
-       
-        Map<Character, Integer> map = new HashMap<>();
-        map.put('I', 1);
-        map.put('V', 5);
-        map.put('X', 10);
-        map.put('L', 50);
-        map.put('C', 100);
-        map.put('D', 500);
-        map.put('M', 1000);
+        Map<Character , Integer> m = new HashMap<>();
+       m.put('I' , 1);
+       m.put('V' , 5);
+       m.put('X' , 10);
+       m.put('L' , 50);
+       m.put('C' , 100);
+       m.put('D' , 500);
+       m.put('M' , 1000);
 
-        int total = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            int value = map.get(s.charAt(i));
+       int total = 0;
+       for(int i = 0;i<s.length();i++){
+        int value = m.get(s.charAt(i));
 
-            if (i + 1 < s.length() && map.get(s.charAt(i + 1)) > value) {
-                total -= value;  
-            } else {
-                total += value;  
-            }
+        if(i+1<s.length() && m.get(s.charAt(i+1))>value){
+            total -= value;
         }
+        else{
+            total+= value;
+        }
+       }
+       return total;
 
-        return total;
     }
 }
