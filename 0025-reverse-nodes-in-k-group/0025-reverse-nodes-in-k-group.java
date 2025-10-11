@@ -10,21 +10,24 @@
  */
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
-        ListNode temp = head;
-        for(int i = 0;i<k;i++){
-             if (temp == null) return head;
-            temp = temp.next;
+        ListNode curr =  head;
+        for(int i = 0 ; i<k ;i++){
+           if(curr == null){
+            return head;
+           }
+           curr = curr.next;
         }
 
+        curr= head;
         ListNode prev = null;
-        temp = head;
         for(int i = 0;i<k;i++){
-         ListNode nextNode = temp.next;
-         temp.next = prev;
-         prev  = temp ;
-         temp = nextNode;
-        } 
-        head.next = reverseKGroup(temp, k);
+            ListNode nxt = curr.next;
+            curr.next = prev ;
+            prev = curr;
+            curr = nxt;
+        }
+
+        head.next = reverseKGroup(curr , k);
         return prev;
     }
 }
