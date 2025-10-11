@@ -15,21 +15,22 @@ class Node {
 
 class Solution {
     public Node copyRandomList(Node head) {
+
         if (head == null) return null;
-
-        // STEP 1: Insert copy nodes in between original nodes
+       
         Node temp = head;
-        while (temp != null) {
-            Node nextElement = temp.next;
-            Node copy = new Node(temp.val);
-
-            temp.next = copy;
-            copy.next = nextElement;
-
-            temp = nextElement;
+        
+        while(temp!= null){
+        Node copyNode = new Node(temp.val);
+        copyNode.next = temp.next;
+        temp.next = copyNode;
+        temp = temp.next.next;
+        
         }
 
-        // STEP 2: Connect random pointers of copied nodes
+
+
+
         temp = head;
         while (temp != null) {
             Node copyNode = temp.next;
@@ -38,21 +39,24 @@ class Solution {
             } else {
                 copyNode.random = null;
             }
-            temp = temp.next.next; // move to next original
+            temp = copyNode.next;
         }
 
-        // STEP 3: Separate the two lists (original + copy)
+
+        Node dummyNode = new Node(-1);
+        Node res = dummyNode;
         temp = head;
-        Node dummy = new Node(-1);
-        Node copyHead = dummy;
-        while (temp != null) {
-            copyHead.next = temp.next;
-            copyHead = copyHead.next;
 
-            temp.next = temp.next.next; // restore original
+
+        while(temp!= null){
+            res.next = temp.next;
+            temp.next = temp.next.next;
+            res = res.next;
             temp = temp.next;
-        }
 
-        return dummy.next; // head of cloned list
+  
+
+        }
+        return dummyNode.next;
     }
 }
