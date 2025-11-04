@@ -25,6 +25,7 @@ Solved DSA problems with java language
 | [0102-binary-tree-level-order-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/HarshitaSindhu/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
@@ -33,6 +34,7 @@ Solved DSA problems with java language
 | [0100-same-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/HarshitaSindhu/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
@@ -42,6 +44,7 @@ Solved DSA problems with java language
 | [0102-binary-tree-level-order-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/HarshitaSindhu/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 ## Breadth-First Search
 |  |
