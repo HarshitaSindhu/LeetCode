@@ -14,21 +14,18 @@
  * }
  */
 class Solution {
-    static ArrayList<Integer> answer;
-
-   public static void recursion(TreeNode root){
-
-    if(root == null){
-        return ;
+    ArrayList<Integer> answer ;
+    public void recursion(TreeNode root){
+        if(root == null){
+            return;
+        }
+        answer.add(root.val);
+        recursion(root.left);
+        recursion(root.right);
     }
-     answer.add(root.val);
-     recursion(root.left);
-     recursion(root.right);
-
-   }
 
     public List<Integer> preorderTraversal(TreeNode root) {
-       answer = new ArrayList<>();
+        answer = new ArrayList<>();
         recursion(root);
         return answer;
     }
