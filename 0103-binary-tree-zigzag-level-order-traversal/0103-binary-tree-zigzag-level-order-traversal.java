@@ -29,7 +29,7 @@ class Solution {
                 TreeNode topMost = queue.poll();
                 if (leftToRight) {
                     currentRow.add(topMost.val);
-                } else {
+                } else { 
                     currentRow.add(0, topMost.val);
                 }
                 if (topMost.left != null) {
