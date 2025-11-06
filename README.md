@@ -30,6 +30,7 @@ Solved DSA problems with java language
 | [0129-sum-root-to-leaf-numbers](https://github.com/HarshitaSindhu/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/HarshitaSindhu/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
@@ -58,6 +59,7 @@ Solved DSA problems with java language
 | [0129-sum-root-to-leaf-numbers](https://github.com/HarshitaSindhu/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/HarshitaSindhu/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
@@ -69,4 +71,12 @@ Solved DSA problems with java language
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/HarshitaSindhu/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/HarshitaSindhu/LeetCode/tree/master/0199-binary-tree-right-side-view) |
+## Binary Search
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 <!---LeetCode Topics End-->
