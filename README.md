@@ -82,6 +82,7 @@ Solved DSA problems with java language
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/HarshitaSindhu/LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
@@ -97,4 +98,8 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/HarshitaSindhu/LeetCode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
