@@ -79,4 +79,8 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
+## Array
+|  |
+| ------- |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 <!---LeetCode Topics End-->
