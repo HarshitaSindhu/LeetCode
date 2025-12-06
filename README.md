@@ -89,6 +89,7 @@ Solved DSA problems with java language
 | [0027-remove-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/HarshitaSindhu/LeetCode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshitaSindhu/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
@@ -156,4 +157,5 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshitaSindhu/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
