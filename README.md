@@ -80,6 +80,7 @@ Solved DSA problems with java language
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Array
 |  |
@@ -90,6 +91,7 @@ Solved DSA problems with java language
 | [0035-search-insert-position](https://github.com/HarshitaSindhu/LeetCode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshitaSindhu/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
