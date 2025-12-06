@@ -88,6 +88,7 @@ Solved DSA problems with java language
 | [0026-remove-duplicates-from-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/HarshitaSindhu/LeetCode/tree/master/0035-search-insert-position) |
+| [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
@@ -135,6 +136,7 @@ Solved DSA problems with java language
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 ## Sorting
@@ -150,4 +152,8 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
