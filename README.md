@@ -88,6 +88,7 @@ Solved DSA problems with java language
 | [0026-remove-duplicates-from-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/HarshitaSindhu/LeetCode/tree/master/0035-search-insert-position) |
+| [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/HarshitaSindhu/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -115,6 +116,7 @@ Solved DSA problems with java language
 | [0001-two-sum](https://github.com/HarshitaSindhu/LeetCode/tree/master/0001-two-sum) |
 | [0141-linked-list-cycle](https://github.com/HarshitaSindhu/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/HarshitaSindhu/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 ## Linked List
 |  |
 | ------- |
@@ -134,12 +136,18 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 ## Sorting
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
