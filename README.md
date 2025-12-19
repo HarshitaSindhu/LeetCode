@@ -77,11 +77,13 @@ Solved DSA problems with java language
 | ------- |
 | [0035-search-insert-position](https://github.com/HarshitaSindhu/LeetCode/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0136-single-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Array
 |  |
 | ------- |
@@ -94,6 +96,7 @@ Solved DSA problems with java language
 | [0136-single-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/HarshitaSindhu/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -116,6 +119,7 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -123,6 +127,7 @@ Solved DSA problems with java language
 | [0141-linked-list-cycle](https://github.com/HarshitaSindhu/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/HarshitaSindhu/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Linked List
 |  |
 | ------- |
@@ -149,6 +154,7 @@ Solved DSA problems with java language
 | ------- |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
+| [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Merge Sort
 |  |
 | ------- |
