@@ -92,6 +92,7 @@ Solved DSA problems with java language
 | [0027-remove-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/HarshitaSindhu/LeetCode/tree/master/0035-search-insert-position) |
 | [0053-maximum-subarray](https://github.com/HarshitaSindhu/LeetCode/tree/master/0053-maximum-subarray) |
+| [0075-sort-colors](https://github.com/HarshitaSindhu/LeetCode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshitaSindhu/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
@@ -107,6 +108,7 @@ Solved DSA problems with java language
 | [0019-remove-nth-node-from-end-of-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0027-remove-element) |
+| [0075-sort-colors](https://github.com/HarshitaSindhu/LeetCode/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/HarshitaSindhu/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/HarshitaSindhu/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
@@ -152,6 +154,7 @@ Solved DSA problems with java language
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/HarshitaSindhu/LeetCode/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
