@@ -6,6 +6,7 @@ Solved DSA problems with java language
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/HarshitaSindhu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0038-count-and-say](https://github.com/HarshitaSindhu/LeetCode/tree/master/0038-count-and-say) |
 | [0686-repeated-string-match](https://github.com/HarshitaSindhu/LeetCode/tree/master/0686-repeated-string-match) |
 ## String Matching
@@ -15,6 +16,7 @@ Solved DSA problems with java language
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/HarshitaSindhu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0234-palindrome-linked-list) |
