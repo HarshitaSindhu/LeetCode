@@ -8,6 +8,7 @@ Solved DSA problems with java language
 | ------- |
 | [0020-valid-parentheses](https://github.com/HarshitaSindhu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0038-count-and-say](https://github.com/HarshitaSindhu/LeetCode/tree/master/0038-count-and-say) |
+| [0242-valid-anagram](https://github.com/HarshitaSindhu/LeetCode/tree/master/0242-valid-anagram) |
 | [0686-repeated-string-match](https://github.com/HarshitaSindhu/LeetCode/tree/master/0686-repeated-string-match) |
 ## String Matching
 |  |
@@ -136,6 +137,7 @@ Solved DSA problems with java language
 | [0142-linked-list-cycle-ii](https://github.com/HarshitaSindhu/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/HarshitaSindhu/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/HarshitaSindhu/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Linked List
 |  |
@@ -168,6 +170,7 @@ Solved DSA problems with java language
 | [0075-sort-colors](https://github.com/HarshitaSindhu/LeetCode/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/HarshitaSindhu/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 ## Merge Sort
 |  |
