@@ -199,4 +199,16 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/HarshitaSindhu/LeetCode/tree/master/0042-trapping-rain-water) |
+## Graph Theory
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/HarshitaSindhu/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/HarshitaSindhu/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Shortest Path
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/HarshitaSindhu/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
