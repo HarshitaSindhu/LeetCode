@@ -105,6 +105,7 @@ Solved DSA problems with java language
 | [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/HarshitaSindhu/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0905-sort-array-by-parity](https://github.com/HarshitaSindhu/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -125,6 +126,7 @@ Solved DSA problems with java language
 | [0234-palindrome-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/HarshitaSindhu/LeetCode/tree/master/0283-move-zeroes) |
 | [0876-middle-of-the-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0876-middle-of-the-linked-list) |
+| [0905-sort-array-by-parity](https://github.com/HarshitaSindhu/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/HarshitaSindhu/LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Math
@@ -176,6 +178,7 @@ Solved DSA problems with java language
 | [0169-majority-element](https://github.com/HarshitaSindhu/LeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/HarshitaSindhu/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
+| [0905-sort-array-by-parity](https://github.com/HarshitaSindhu/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
 ## Merge Sort
 |  |
