@@ -108,6 +108,7 @@ Solved DSA problems with java language
 | [0485-max-consecutive-ones](https://github.com/HarshitaSindhu/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0905-sort-array-by-parity](https://github.com/HarshitaSindhu/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [0977-squares-of-a-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1051-height-checker](https://github.com/HarshitaSindhu/LeetCode/tree/master/1051-height-checker) |
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -184,6 +185,7 @@ Solved DSA problems with java language
 | [0268-missing-number](https://github.com/HarshitaSindhu/LeetCode/tree/master/0268-missing-number) |
 | [0905-sort-array-by-parity](https://github.com/HarshitaSindhu/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [0977-squares-of-a-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1051-height-checker](https://github.com/HarshitaSindhu/LeetCode/tree/master/1051-height-checker) |
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
 ## Merge Sort
 |  |
@@ -219,4 +221,8 @@ Solved DSA problems with java language
 |  |
 | ------- |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/HarshitaSindhu/LeetCode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Counting Sort
+|  |
+| ------- |
+| [1051-height-checker](https://github.com/HarshitaSindhu/LeetCode/tree/master/1051-height-checker) |
 <!---LeetCode Topics End-->
