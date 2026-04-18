@@ -24,6 +24,7 @@ Solved DSA problems with java language
 | [0234-palindrome-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0907-sum-of-subarray-minimums](https://github.com/HarshitaSindhu/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0946-validate-stack-sequences](https://github.com/HarshitaSindhu/LeetCode/tree/master/0946-validate-stack-sequences) |
+| [2104-sum-of-subarray-ranges](https://github.com/HarshitaSindhu/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Tree
 |  |
 | ------- |
@@ -116,6 +117,7 @@ Solved DSA problems with java language
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2104-sum-of-subarray-ranges](https://github.com/HarshitaSindhu/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/HarshitaSindhu/LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Two Pointers
 |  |
@@ -216,6 +218,7 @@ Solved DSA problems with java language
 | ------- |
 | [0042-trapping-rain-water](https://github.com/HarshitaSindhu/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0907-sum-of-subarray-minimums](https://github.com/HarshitaSindhu/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/HarshitaSindhu/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Graph Theory
 |  |
 | ------- |
