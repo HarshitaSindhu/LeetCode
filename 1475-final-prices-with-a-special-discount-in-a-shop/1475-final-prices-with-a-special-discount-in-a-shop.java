@@ -1,26 +1,21 @@
+import java.util.*;
+
 class Solution {
     public int[] finalPrices(int[] prices) {
-      
-        int answer[] = new int[prices.length];
-        for(int i = 0; i < prices.length; i++){
-            answer[i] = prices[i]; // Default value before checking discounts
-            for(int j = i + 1; j < prices.length; j++){
-                if(prices[j] <= prices[i]){
-                    answer[i] = prices[i] - prices[j];
-                    break;
-                }
-                else {
-                    answer[i] = prices[i];
-                }
+        int n = prices.length;
+        Stack<Integer> st = new Stack<>();
+
+        for (int i = 0; i < n; i++) {
+
+            // current price gives discount to previous bigger prices
+            while (!st.isEmpty() && prices[st.peek()] >= prices[i]) {
+                int idx = st.pop();
+                prices[idx] = prices[idx] - prices[i];
             }
+
+            st.push(i);
         }
-        return answer;
+
+        return prices;
     }
 }
-
-
-
-
-
-        
-        
