@@ -7,7 +7,6 @@ class Solution {
 
         for (int i = 0; i < n; i++) {
 
-            // current price gives discount to previous bigger prices
             while (!st.isEmpty() && prices[st.peek()] >= prices[i]) {
                 int idx = st.pop();
                 prices[idx] = prices[idx] - prices[i];
