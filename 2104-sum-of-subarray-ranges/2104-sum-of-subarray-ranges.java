@@ -1,73 +1,88 @@
+import java.util.*;
+
 class Solution {
+
     public long subArrayRanges(int[] nums) {
         return subArrayMax(nums) - subArrayMin(nums);
     }
 
-    private long subArrayMax(int[] nums) {
-        int n = nums.length;
-        long res = 0;
-        Stack<Integer> stack = new Stack<>();
+    // 🔽 SUM OF SUBARRAY MINIMUMS
+    public long subArrayMin(int[] arr) {
+        int n = arr.length;
+        Stack<Integer> st = new Stack<>();
         int[] left = new int[n];
         int[] right = new int[n];
 
-        // Previous Greater or Equal
+        // Next smaller (right)
         for (int i = 0; i < n; i++) {
-            while (!stack.isEmpty() && nums[stack.peek()] < nums[i]) {
-                stack.pop();
+            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
+                right[st.pop()] = i;
             }
-            left[i] = stack.isEmpty() ? i + 1 : i - stack.peek();
-            stack.push(i);
+            st.push(i);
+        }
+        while (!st.isEmpty()) {
+            right[st.pop()] = n;
         }
 
-        stack.clear();
-
-        // Next Greater
+        // Previous smaller (left)
         for (int i = n - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && nums[stack.peek()] <= nums[i]) {
-                stack.pop();
+            while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
+                left[st.pop()] = i;
             }
-            right[i] = stack.isEmpty() ? n - i : stack.peek() - i;
-            stack.push(i);
+            st.push(i);
         }
+        while (!st.isEmpty()) {
+            left[st.pop()] = -1;
+        }
+
+        long sum = 0;
 
         for (int i = 0; i < n; i++) {
-            res += (long)nums[i] * left[i] * right[i];
+            long l = i - left[i];
+            long r = right[i] - i;
+            sum += l * r * arr[i];
         }
 
-        return res;
+        return sum;
     }
 
-    private long subArrayMin(int[] nums) {
-        int n = nums.length;
-        long res = 0;
-        Stack<Integer> stack = new Stack<>();
+    // 🔼 SUM OF SUBARRAY MAXIMUMS
+    public long subArrayMax(int[] arr) {
+        int n = arr.length;
+        Stack<Integer> st = new Stack<>();
         int[] left = new int[n];
         int[] right = new int[n];
 
-        // Previous Smaller or Equal
+        // Next greater (right)
         for (int i = 0; i < n; i++) {
-            while (!stack.isEmpty() && nums[stack.peek()] > nums[i]) {
-                stack.pop();
+            while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
+                right[st.pop()] = i;
             }
-            left[i] = stack.isEmpty() ? i + 1 : i - stack.peek();
-            stack.push(i);
+            st.push(i);
+        }
+        while (!st.isEmpty()) {
+            right[st.pop()] = n;
         }
 
-        stack.clear();
-
-        // Next Smaller
+        // Previous greater (left)
         for (int i = n - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && nums[stack.peek()] >= nums[i]) {
-                stack.pop();
+            while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
+                left[st.pop()] = i;
             }
-            right[i] = stack.isEmpty() ? n - i : stack.peek() - i;
-            stack.push(i);
+            st.push(i);
         }
+        while (!st.isEmpty()) {
+            left[st.pop()] = -1;
+        }
+
+        long sum = 0;
 
         for (int i = 0; i < n; i++) {
-            res += (long)nums[i] * left[i] * right[i];
+            long l = i - left[i];
+            long r = right[i] - i;
+            sum += l * r * arr[i];
         }
 
-        return res;
+        return sum;
     }
 }
