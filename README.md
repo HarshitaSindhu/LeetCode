@@ -23,6 +23,7 @@ Solved DSA problems with java language
 | [0144-binary-tree-preorder-traversal](https://github.com/HarshitaSindhu/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0907-sum-of-subarray-minimums](https://github.com/HarshitaSindhu/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [0946-validate-stack-sequences](https://github.com/HarshitaSindhu/LeetCode/tree/master/0946-validate-stack-sequences) |
 ## Tree
 |  |
 | ------- |
@@ -109,6 +110,7 @@ Solved DSA problems with java language
 | [0485-max-consecutive-ones](https://github.com/HarshitaSindhu/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0905-sort-array-by-parity](https://github.com/HarshitaSindhu/LeetCode/tree/master/0905-sort-array-by-parity) |
 | [0907-sum-of-subarray-minimums](https://github.com/HarshitaSindhu/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [0946-validate-stack-sequences](https://github.com/HarshitaSindhu/LeetCode/tree/master/0946-validate-stack-sequences) |
 | [0977-squares-of-a-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1051-height-checker](https://github.com/HarshitaSindhu/LeetCode/tree/master/1051-height-checker) |
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
@@ -207,6 +209,7 @@ Solved DSA problems with java language
 ## Simulation
 |  |
 | ------- |
+| [0946-validate-stack-sequences](https://github.com/HarshitaSindhu/LeetCode/tree/master/0946-validate-stack-sequences) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/HarshitaSindhu/LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Monotonic Stack
 |  |
