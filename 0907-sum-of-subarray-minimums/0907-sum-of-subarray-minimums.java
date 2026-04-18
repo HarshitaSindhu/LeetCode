@@ -1,37 +1,42 @@
 class Solution {
+    public int m = (int)Math.pow(10 , 9) + 7;
+
     public int sumSubarrayMins(int[] arr) {
         int n = arr.length;
-        int MOD = 1_000_000_007;
         Stack<Integer> st = new Stack<>();
-
-        int[] ple = new int[n];
-        int[] nle = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
+        
+        int smaller_right[] = new int[n];
+        for(int i = 0; i < n; i++) {
+            while(!st.empty() && arr[i] <= arr[st.peek()]) {
+                smaller_right[st.peek()] = i;
                 st.pop();
             }
-            ple[i] = st.isEmpty() ? -1 : st.peek();
             st.push(i);
         }
+        while(!st.empty()) {
+            smaller_right[st.pop()] = n;
+        }
 
-        st.clear(); 
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
+        int smaller_left[] = new int[n];
+        st.clear();
+        for(int i = n - 1; i >= 0; i--) { 
+            while(!st.empty() && arr[i] < arr[st.peek()]) {
+                smaller_left[st.peek()] = i; 
                 st.pop();
             }
-            nle[i] = st.isEmpty() ? n : st.peek();
             st.push(i);
         }
-
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            long left = i - ple[i];
-            long right = nle[i] - i;
-            sum = (sum + (arr[i] * left % MOD) * right % MOD) % MOD;
+        while(!st.empty()) {
+            smaller_left[st.pop()] = -1; 
         }
 
-        return (int) sum;
+        long totalSum = 0;
+        for(int i = 0; i < n; i++) {
+            long endingLength = (smaller_right[i] - i + m) % m; 
+            long startingLength = (i - smaller_left[i] + m) % m; 
+            long numberofSubarray = (endingLength * startingLength) % m;
+            totalSum = (totalSum + numberofSubarray * arr[i] % m) % m;
+        }
+        return (int)(totalSum);
     }
 }
-
