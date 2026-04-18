@@ -24,6 +24,7 @@ Solved DSA problems with java language
 | [0234-palindrome-linked-list](https://github.com/HarshitaSindhu/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0907-sum-of-subarray-minimums](https://github.com/HarshitaSindhu/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0946-validate-stack-sequences](https://github.com/HarshitaSindhu/LeetCode/tree/master/0946-validate-stack-sequences) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HarshitaSindhu/LeetCode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2104-sum-of-subarray-ranges](https://github.com/HarshitaSindhu/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Tree
 |  |
@@ -115,6 +116,7 @@ Solved DSA problems with java language
 | [0977-squares-of-a-sorted-array](https://github.com/HarshitaSindhu/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1051-height-checker](https://github.com/HarshitaSindhu/LeetCode/tree/master/1051-height-checker) |
 | [1200-minimum-absolute-difference](https://github.com/HarshitaSindhu/LeetCode/tree/master/1200-minimum-absolute-difference) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HarshitaSindhu/LeetCode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/HarshitaSindhu/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2104-sum-of-subarray-ranges](https://github.com/HarshitaSindhu/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
@@ -218,6 +220,7 @@ Solved DSA problems with java language
 | ------- |
 | [0042-trapping-rain-water](https://github.com/HarshitaSindhu/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0907-sum-of-subarray-minimums](https://github.com/HarshitaSindhu/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/HarshitaSindhu/LeetCode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [2104-sum-of-subarray-ranges](https://github.com/HarshitaSindhu/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
 ## Graph Theory
 |  |
